@@ -1,0 +1,29 @@
+Accept: application/json
+X-APOLLO-OPERATION-ID: e0807518a5e7644214c44b9e2d9fbc92d26dbc7c640ed604347c338f357ed731
+X-APOLLO-OPERATION-NAME: fetchProductsWith
+X-APOLLO-CACHE-KEY: 831ae97def1049ed53df39c7b70c78ad
+X-APOLLO-CACHE-FETCH-STRATEGY: NETWORK_ONLY
+X-APOLLO-EXPIRE-TIMEOUT: 0
+X-APOLLO-EXPIRE-AFTER-READ: false
+X-APOLLO-PREFETCH: false
+X-APOLLO-CACHE-DO-NOT-STORE: false
+x-datadog-trace-id: 4476995435962563111
+x-datadog-parent-id: 252902938833405806
+x-datadog-sampling-priority: 1
+x-datadog-origin: rum
+Accept-Language: es
+Accept: application/vnd.therealreal.v2+json
+anonymous-id: 76956f32-c2f9-4a76-8008-240d8923602d
+analytics-sessionid: 1683847685397
+Api-Key: b817d459f625a0d740769a0059664f7d
+User-Agent: TRR_production/2.7.12 (com.therealreal.app; build:release.64; Android 9; samsung SM-G9810)
+Currency: USD
+Membership: first_look
+Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0aGVyZWFscmVhbC5jb20iLCJleHAiOjE2ODM4NDkyNDksImlhdCI6MTY4Mzg0NzQ0OSwiaXNzIjoidGhlcmVhbHJlYWwuY29tIiwianRpIjoiNjM5MTUzYzktNjYxNC00NDJlLTgzN2EtYmQ3ODhjY2IwZDBiIiwibWVtIjoic3RhbmRhcmQiLCJuYmYiOjE2ODM4NDc0NDgsInNjcCI6W10sInNsZyI6IjY2M2E1MDZlLWJlNDktNDg4My1hYmRmLTk5YTA3MGVlNmI2NyIsInN1YiI6IjMzMDY5ODU1IiwidHlwIjoiYWNjZXNzIn0.RGeWiL57WKXYSxVZOGpVz154IIIgrmDXLCV43gzyXjW6MJ_5mekv-JTbSlWFhT7WALirMMOVYWi7XxxppPUbBQ
+X-PX-AUTHORIZATION: 3
+X-PX-ORIGINAL-TOKEN: 2:eyJ1IjoiYjZjZWE0NjEtNGQwOS00ZGM1LTk2MzUtYmVjZWRhNGFhYTA1IiwidiI6ImUzNWViZDJjLWYwNTItMTFlZC05MDRiLTU4NTM0NzZlNzI2ZSIsInQiOjE2ODM4NDc3ODA3MjYsImgiOiJiOGQ3MTc4YjlkM2M4MDgzNzM4Nzg5NzY1MDAyN2VmNTE1NTgzZmM1MDYwNWQ2OWExOWRhNGY1YmU1NTAxYzJjIn0=
+Content-Type: application/json; charset=utf-8
+Content-Length: 2303
+Host: api.therealreal.com
+Connection: Keep-Alive
+Accept-Encoding: gzip

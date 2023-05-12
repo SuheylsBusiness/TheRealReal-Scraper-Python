@@ -1,0 +1,19 @@
+{
+    "operationName": "fetchProductsWith",
+    "variables": {
+        "keyword": null,
+        "after": null,
+        "sortBy": "NEWEST",
+        "where": {
+            "booleans": [],
+            "buckets": {
+                "taxons": ["TAXONOMY_ID_REPLACE"]
+            },
+            "ranges": {}
+        },
+        "currency": "USD",
+        "saleSlug": null,
+        "flashSaleId": null
+    },
+    "query": "query fetchProductsWith($keyword: String, $after: String, $first: Int = 30, $sortBy: SortBy = NEWEST, $where: ProductFilters, $currency: Currencies!, $saleId: String, $saleSlug: String, $flashSaleId: String) { products(after: $after, first: $first, query: $keyword, sortBy: $sortBy, where: $where, currency: $currency, saleId: $saleId, saleSlug: $saleSlug, flashSaleId: $flashSaleId) { __typename ...productConnectionFragment } } fragment productConnectionFragment on ProductConnection { __typename aggregations { __typename name property ... on BucketAggregation { ...leanBucketAggregationFragment } ... on BooleanAggregation { selectedBoolean: selected value } ... on RangeAggregation { ...aggregationRangeFragment } } edges { __typename cursor node { __typename ...leanProductFragment } } pageInfo { __typename endCursor startCursor hasNextPage hasPreviousPage } sortByOptions { __typename name options { __typename name value } property selected } taxons totalCount } fragment leanProductFragment on Product { __typename id availability waitlisted obsessed images { __typename url } artist { __typename name } brand { __typename name } designer { __typename name } name attributes { __typename ...attributesFragment } price { __typename ...productPriceFragment } } fragment attributesFragment on Attribute { __typename label type values } fragment productPriceFragment on Price { __typename discount final { __typename formatted usdCents } msrp { __typename formatted usdCents } original { __typename formatted usdCents } } fragment leanBucketAggregationFragment on BucketAggregation { __typename buckets { __typename ...bucketFieldPropertiesFragment } } fragment bucketFieldPropertiesFragment on BucketField { __typename count images { __typename url } name selected value } fragment aggregationRangeFragment on RangeAggregation { __typename range { __typename maximum { __typename formatted raw } minimum { __typename formatted raw } } selectedRange: selected { __typename maximum { __typename formatted raw } minimum { __typename formatted raw } } }"
+}
